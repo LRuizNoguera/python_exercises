@@ -17,6 +17,7 @@ if puestos <= 200:
 else:
     valorBus = bus * 80000
 
+print("El número de buses requeridos para la excursión es: ", bus)
 print("El costo total de los buses es : ", valorBus)
 print("El costo total de la comida es: ", comidaFlacos + comidaGordos)
 print("El costo total de la excursión es: ", comidaFlacos + comidaGordos + valorBus)
